@@ -1,8 +1,3 @@
-@media only screen and (max-width:480px){
-   .work-sample-div{
-   line-height: 70px;
-   }
-}  
 body {
   margin: 0;
   text-align: center;
@@ -151,4 +146,9 @@ hr {
   display: block;
   flex-direction: column;
 }
+@media only screen and (max-width:480px){
+   .work-sample-div{
+   line-height: 70px;
+   }
+}  
 

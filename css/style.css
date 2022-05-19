@@ -146,9 +146,20 @@ hr {
   display: block;
   flex-direction: column;
 }
-@media only screen and (max-width:480px){
-   .work-sample-div{
+@media only screen and (max-width:600px){
+  body{
+    width: fit-content;
+    font-size: x-large;
+  }
+}
+ @media only screen and (max-width:480px){
+.work-sample-div{
+  margin-left: 15% !important;
+  margin-right: 15% !important;
    line-height: 70px;
    }
-}  
+}   
 
+@media only screen and (max-width:768px) and (min-width:480px){
+  
+}
